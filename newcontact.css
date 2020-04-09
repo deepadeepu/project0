@@ -9,53 +9,17 @@ h1 {
   text-shadow: 2px 2px 2px #228B22;
 }
 
-.flip-box {
-  width: 50%;
-  height: 50%;
-  float: right;
-  margin-top: 60px;
-  margin-right: 90px;
-}
-
-.flip-box-inner {
-  position: relative;
-  top: 60px;
-  height: 70%;
+h3 {
   text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-box-front, .flip-box-back {
-  position: absolute;
-  width: 80%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-box-front {
-  background-color: #00BFFF;
-  color: black;
-  left: 100px;
-  padding: 40px;
 }
 
 .flip-box-back {
+  position: relative;
+  width: 60%;
   background-color: #2F4F4F;
   color: white;
-  transform: rotateY(180deg);
-  padding: 30px;
-}
-
-.row {
-  float: left;
-  position: absolute;
-  margin-top: 100px;
-  margin-left: 100px;
+  padding: 20px;
+  margin-left: 20%;
 }
 
 .contact-form {
@@ -83,35 +47,20 @@ h1 {
 }
 .contact-form input[type=submit] {
   background-color: #800000;
-  border: 2px;
+  border: 4px;
   border-color: #2F4F4F;
   color: white;
   height: 35px;
   width: 100%;
-  max-width: 80px;
+  max-width: 90px;
   text-align: center;
+  margin-left: 280px;
 }
 
 @media (max-width: 599px) {
   body {
     font-family: Arial, Helvetica, sans-serif;
     background: #FF4500;
-  }
-
-  .row {
-    display: none;
-  }
-
-  .flip-box {
-    width: 100%;
-    height: 60%;
-  }
-
-  .flip-box-front {
-    background-color: #00BFFF;
-    color: black;
-    float: left;
-    position: absolute;
   }
 
   .flip-box-back {
