@@ -16,6 +16,6 @@ In gallery page I have used Grid style and added images downloaded from internet
 
 In events page I have added video background and an events calendar.For the events calendar I have used code downloaded from internet.
 
-In the contact us page I have used SCSS style coding. In this page I have added a image flip over to leave a message.
+In the contact us page I have used SCSS style coding. In this page I have added color change for screen change.
 
 I have  changed code for screen changes and it is mobile responsive.
