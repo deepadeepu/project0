@@ -1,5 +1,5 @@
 # project0
-Created 4 pages. 
+Created 3 pages. 
 1.index.html
 2.gallery.html
 3.contact.html
